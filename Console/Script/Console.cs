@@ -34,6 +34,8 @@ namespace ConsoleUtility
         [Header("Settings")]
         [Range(1.0f, 30.0f)]
         public float ScrollSpeed = 5.0f;
+        public bool autoGenerate = true;
+        public bool dontDestroyOnLoad = true;
 
         private static ConsoleData s_ConsoleData;
         private static Console s_Console;
